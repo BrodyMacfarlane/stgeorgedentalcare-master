@@ -1,0 +1,141 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+}
+
+body {
+	background: url(http://styles.prosites.com/litesite/2077/images/bg.jpg) top center repeat;
+}
+
+.head li {
+	font-size: 20px;
+	display: inline-block;
+	flex-flow: row wrap;
+	padding: 15px;
+	transition: 0.1s ease-in-out;
+	will-change: color;
+}
+
+.head {
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 100px;
+}
+
+.head li:hover {
+	transition: 0.2s ease-in-out;
+	will-change: color;
+	color: #B8AB88;
+}
+
+.main {
+	background: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	height: auto;
+	width: 75%;
+	z-index: 1;
+	box-shadow: 0px 0px .5px .5px black;
+	overflow: auto;
+}
+
+.main li {
+	display: block;
+	font-size: 30px;
+}
+
+.main .olive {
+	font-size: 25px;
+	color: olive;
+}
+
+.main ul {
+	margin-left: 70px;
+	padding: 30px;
+	padding-top: 25px;
+	display: inline-block;
+}
+
+.tele {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right:  15px;
+}
+
+.teleImg {
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 0.2s ease-in-out;
+	will-change: height width;
+}
+
+.teleImg:hover {
+	transition: 0.2s ease-in-out;
+	will-change: height width;
+	width: 33px;
+	height: 33px;
+}
+
+.midDiv {
+	background: #776856;
+	max-height: 284px;
+	max-width: 100%;
+	height: auto;
+}
+
+.midImg img {
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+.lowerTitle p {
+	font-size: 40px;
+	margin-left: 150px;
+}
+
+.danCaption p {
+	margin-left: 100px;
+}
+
+.danPic img {
+	margin-left: 100px;
+	margin-right: auto;
+	float: left;
+}
+
+.content p {
+	margin-left: 330px;
+}
+
+.subFooter {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footImg img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+.spaceTop {
+	margin-top: 75px;
+}
+
+.spaceBottom {
+	margin-bottom: 40px;
+}
